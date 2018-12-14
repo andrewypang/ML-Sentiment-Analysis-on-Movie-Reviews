@@ -1,0 +1,38 @@
+#################################################################
+#
+# CMPS 142 - Machine Learning and Data Mining
+# Instructor: Snigdha Chaturvedi
+#
+# Project: Sentiment Analysis on Movie Reviews
+# Group Members: Andrew Pang, Pardis Moridian, Jiayi(Jacky) Zhu
+#
+#################################################################
+
+Important Python Library Used:
+
+sys
+time
+string
+matplotlib
+matplotlib.pyplot
+numpy
+scipy.sparse import csr_matrix
+nltk
+nltk.corpus import stopwords 
+nltk.tokenize import word_tokenize 
+nltk.probability import FreqDist
+nltk.stem.porter import PorterStemmer
+sklearn.model_selection import train_test_split
+sklearn.svm import SVC
+sklearn.metrics import classification_report, confusion_matrix
+sklearn.feature_extraction.text import CountVectorizer
+
+
+Processing Phase
+	This phase holds all the transformation we choose to apply to clean/process our data. Such transformation includes filter_out_stopwords_punct, stem_text, lemmatize_text, and more.
+
+Training Phase
+	This phase reads in the input file 'train.csv', stores data, apply any processing if desired, create a Bag of Words vector from the phrase corpus, and trains the SVM model
+
+Testing Phase
+	This phase reads in the test input file 'testset_1.csv', and attempts to predict the Sentiment, and writes into an output file 'predict.csv'
