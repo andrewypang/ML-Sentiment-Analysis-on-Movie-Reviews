@@ -1,3 +1,6 @@
+# ML-Sentiment-Analysis-on-Movie-Reviews
+With the growing impact of online platforms like social media, such as Twitter, and review websites like Yelp and Rotten Tomatoes, it has become important to gather insights from the huge amounts of subjective data. In this project, you will learn how to derive insights from a corpus of movie reviews. To this end, you will be asked to automatically predicts sentiment of textual phrases from movie reviews. Specifically the Machine Learning task is as follows: given an input phrase, you have to classify it into one of the following sentiment categories: negative, somewhat negative, neutral, somewhat positive, positive. Solving this task allows us to analyze the intricacies of sentiment and to capture complex linguistic phenomena.
+
 #################################################################
 #
 # CMPS 142 - Machine Learning and Data Mining
