@@ -11,6 +11,10 @@ With the growing impact of online platforms like social media, such as Twitter, 
 #
 #################################################################
 
+Technology Used:
+* Python
+* scikit-learn
+
 Important Python Library Used:
 
 sys
